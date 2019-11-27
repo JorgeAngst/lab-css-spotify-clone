@@ -1,8 +1,93 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+  font-family: "Roboto";
+  color: #1A1A1A;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.navbar figure, ul {
+  margin: 0;
+}
+
+.flex-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.spotifyLogo {
+  width: 150px;
+}
+
+header {
+  background-image: url('../images/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 100;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/* What's on Spotify section */
+
+.container {
+  margin-top: 100px;
+}
+
+#info h2 {
+  margin: 0 auto;
+  width: 260px;
+  text-align: center;
+  border-bottom: 5px solid #00B172;
+}
+#info figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info img {
+  width: 100px;
+}
+
+#info h3 {
+  text-align: center;
+  color: #00B172;
+}
+
+#info p {
+  padding: 0 60px;
+  text-align: center;
+
+}
